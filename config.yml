@@ -1,0 +1,35 @@
+accounts:
+  - name: owner
+    coins: ["200000000fhc", "200000000stake"]
+    
+validator:
+  name: owner
+  staked: "100000000stake"
+  
+client:
+  openapi:
+    path: "docs/static/openapi.yml"
+  vuex:
+    path: "vue/src/store"
+    
+faucet:
+  host: ":4502"
+  name: owner
+  coins: ["1000fhc", "100000stake"]
+  
+genesis:
+  chain_id: "cache"
+  
+init:
+  home: "$HOME/.cache"
+  
+host:
+  rpc: ":26661"
+  p2p: ":26660"
+  prof: ":6062"
+  grpc: ":9094"
+  grpc-web: ":9095"
+  api: ":1319"
+  
+  
+  
